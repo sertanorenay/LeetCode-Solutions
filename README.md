@@ -1,2 +1,2 @@
-# LeetCode Solutions - Python
-`python` solutions of some LeetCode problems. 
+# LeetCode Solutions 
+Solutions of some LeetCode problems in different languages. 
