@@ -16,14 +16,8 @@ var summaryRanges = function(nums) {
                 last = nums[i + 1];
                 i++;
             }
-            if (last == undefined) {
-                last = first;
-                result.push(`${first}`);
-            } else if (first < last) {
-                result.push(`${first}->${last}`);
-            } else {
-                result.push(`${first}`);
-            }
+            if (nums[i] == first) result.push(`${first}`);
+            else result.push(`${first}->${last}`);
         }
         i++;
     }
