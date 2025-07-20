@@ -2,7 +2,7 @@ class Solution {
     public int maxAdjacentDistance(int[] nums) {
         int max_difference = -1;
 
-        for (int i = 1; i < nums.length - 1; i++) {
+        for (int i = 0; i < nums.length - 1; i++) {
             int abs_difference = Math.abs(nums[i] - nums[i + 1]);
             if (abs_difference > max_difference) max_difference = abs_difference;
         }
